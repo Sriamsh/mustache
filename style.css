@@ -1,0 +1,27 @@
+.heading
+{
+    font-size: 35px;
+}
+
+.btn-danger:hover
+{
+background-color:rgb(123, 9, 9);
+}
+
+canvas
+{
+    animation-name:sri;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    border-style:dashed;
+}
+
+@keyframes sri
+{
+from{
+box-shadow:10px 10px 30px crimson;
+}
+to{
+    box-shadow:10px 10px 30px aqua;
+}
+}
